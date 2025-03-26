@@ -11,6 +11,7 @@ body {
   border: 3px double #999;
   padding: 20px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 h1 {
@@ -19,9 +20,21 @@ h1 {
   text-shadow: 1px 1px #ccc;
 }
 
+/* リストのドットを消す！ */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+li {
+  margin: 8px 0;
+}
+
 a {
   color: #0000cc;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
